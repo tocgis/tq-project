@@ -1,0 +1,31 @@
+<!-- Main content -->
+<section class="content">
+      <div class="row">
+          <!-- left column -->
+          <div class="col-md-8">
+            <!-- <div class="explain-col mb10" style="display:none" id="browserVersionAlert"> 使用IE8浏览器可获得最佳视觉效果</div> -->
+
+            <div class="col-2 lf mr10" style="width:90%">
+              <h3>系统信息</h3>
+
+
+            <div class="content">
+                <p>服务器IP： {{$_SERVER.SERVER_ADDR}}</p>
+                <p>PHP版本：{{$_PHP.version}}</p>
+                <p>WEB服务器：{{$_SERVER.SERVER_NAME}}:{{$_SERVER.SERVER_PORT}}</p>
+                <p>操作系统：{{$_PHP.os}}</p>
+                <p>最大上传限制：{{$_PHP.upload}}</p>
+                <p>最大执行时间：{{$_PHP.max_execution_time}}</p>
+                <p>服务器时间：{{$_SERVER.REQUEST_TIME|date_format:"%Y-%m-%d %T"}}</p>
+               </div>
+               </div>
+            <div class="bk10"></div>
+            <div class="col-2 lf mr10" style="width:90%">
+              <h6>温馨提示</h6>
+              <div class="content"> 请点击左侧菜单进行相关操作 </div>
+            </div>
+            <div class="bk10"></div>
+            </div>
+        </div><!--/.col (right) -->
+</div>   <!-- /.row -->
+</section><!-- /.content -->

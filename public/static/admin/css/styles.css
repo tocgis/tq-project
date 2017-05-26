@@ -1,0 +1,105 @@
+@-moz-document url-prefix() {
+  fieldset { display: table-cell; }
+}
+
+.mr15{margin-right: 15px;}
+.search-position{position: absolute;right: 0;top: 35px; }
+
+.report-refs{text-align: left;padding: 10px;}
+.report-refs .input-group.date{width: 240px;float: left;}
+.font-red{font-size: 12px;color: #cb0000;}
+
+.tree-yl .mailbox-attachment{margin-right: 50px;}
+.tree-yl .fa{font-size: 18px;}
+.tree-yl .dd-nodrag{margin-top: 3px;}
+.tree-yl .dd-item:hover{background-color: #000;}
+
+.tree-yl .dd-handle .dd-frist{display: inline-block;height: 26px;}
+.tree-yl .dd-handle .dd-frist>div{display: inline-block;}
+.tree-yl .dd-handle .dd-frist>div label{margin-bottom: 0;display: block;line-height: 26px;margin-right: 10px;}
+.tree-yl .dd-handle .dd-frist>div label,
+.tree-yl .dd-handle .dd-frist>div>div{float: left;}
+.tree-yl .dd-handle .dd-frist>div.form-group{margin-bottom: 0;}
+
+.dd-dragel .dd-handle .dd-frist{display: inline-block;height: 26px;}
+.dd-dragel .dd-handle .dd-frist>div{display: inline-block;}
+.dd-dragel .dd-handle .dd-frist>div label{margin-bottom: 0;display: block;line-height: 26px;margin-right: 10px;}
+.dd-dragel .dd-handle .dd-frist>div label,
+.dd-dragel .dd-handle .dd-frist>div>div{float: left;}
+.dd-dragel .dd-handle .dd-frist>div.form-group{margin-bottom: 0;}
+.dd-dragel .fa{font-size: 18px;margin-top: 8px;}
+
+.table-th {padding: 8px 0;}
+.table-th .table-td-01{float: left;margin-left: 15px;}
+.table-th .table-td-02{float: right;margin-right: 35px;}
+.table-th .table-td-03{float: right;margin-right: 5px;}
+.typedef-btn{padding: 8px 5px;}
+
+.def-tab tr:first-child{background-color: #428bca;}
+.def-tab tr:first-child:hover{background-color: #428bca;}
+.def-tab tr>th{color: #fff;}
+.def-tab tr>td{padding: 10px 8px !important;}
+.def-tab tr>th:first-child,
+.def-tab tr>td:first-child{text-align: center;width: 80px;}
+.def-tab tr>td:nth-child(3),
+.def-tab tr>th:nth-child(3){width: 120px;text-align: center;}
+.def-tab tr>td:nth-child(4),
+.def-tab tr>th:nth-child(4){width: 300px;text-align: center;}
+.def-tab tr>th:last-child,
+.def-tab tr>td:last-child{text-align: center;width: 180px;}
+.def-tab tr:hover {background-color: #f1f1f1;}
+.def-tab tr .attribute span{margin: 0 10px;}
+
+.def-titlename{line-height: 34px;margin-bottom: 5px;}
+.def-titlename a,.def-titlename button,.def-titlename a:focus,.def-titlename button:focus{outline: none;border: none;}
+
+.addflow-from .form-group{padding-left: 25px;position: relative;}
+.addflow-from>h6{font-size: 16px;margin-top: 25px;}
+.addflow-row .col-md-10,.addflow-row .col-md-45{padding: 0 15px;}
+/*@media (min-width: 992px){*/
+    .addflow-row .col-md-45{width: 45%;float: left;}
+    .addflow-row .col-md-10{width: 10%;float: left;}
+/*}*/
+.addflow-row .col-md-10{padding: 0;}
+.addflow-row .flow-scorll{overflow-y: scroll;height: 300px;border: 1px solid #d1d1d1;}
+.addflow-row .flow-scorll p{line-height: 24px;margin: 0;padding: 5px 15px;font-size: 14px;cursor: pointer;}
+.addflow-row .flow-scorll .active{background-color: #0081C2;color: #fff;}
+.addflow-row .flow-func-btn{-webkit-box-pack: center;height: 300px;padding-top: 65px;}
+.addflow-row .flow-func-btn>a{display: block;text-align: center;margin-top: 20px;padding: 15px 0;box-sizing: border-box;}
+.addflow-row .flow-func-btn>a:hover{border: 1px solid #d1d1d1;border-radius: 5px;padding: 14px 0;}
+.addflow-row .flow-func-btn>a img{max-width: 100%;width: 20px;}
+
+.addflow-meu-btn{text-align: right;padding: 15px;}
+.addflow-meu-btn>button{margin-left: 20px;}
+
+.addflow-from .form-group .form-control{padding-right: 25px;}
+.addflow-from .form-group .form-control[readonly=readonly]{background-color: transparent;}
+.addflow-from .form-group .form-control.icon-input-right{background-position: right center;background-repeat: no-repeat;}
+.addflow-from .form-group .form-control.icon-next{background-image: url(../images/icon_right_01.png);}
+.addflow-from .form-group .form-control.icon-pro{background-image: url(../images/icon_right_02.png);}
+.addflow-from .form-group .form-control.icon-position{background-image: url(../images/icon_right_03.png);}
+.addflow-from .form-group .form-control.icon-role{background-image: url(../images/icon_right_04.png);}
+
+.addflow-from .form-group .list-dialog{position: absolute;top: -5px;left: 105%;width: 320px;background-color: #f0f0f0;z-index: 10;border: 1px solid #d1d1d1;display: none;}
+.addflow-from .form-group .list-dialog>h2{font-size: 18px;padding: 10px;margin: 0;border-bottom: 1px solid #d1d1d1;position: relative;}
+.addflow-from .form-group .list-dialog>h2 .close-dialog{position: absolute;top: 10px;right: 5px;}
+.addflow-from .form-group .list-dialog>h2 .close-dialog span{color: #999;}
+.addflow-from .form-group .list-dialog>h2 .resf-dialog{position: absolute;top: 10px;right: 35px;}
+.addflow-from .form-group .list-dialog>h2 .resf-dialog span{color: #999;}
+.addflow-from .form-group .list-dialog .list-srcoll{height: 240px;overflow-y: scroll;position: relative;}
+.addflow-from .form-group .list-dialog .list-btn{padding: 10px;border-top: 1px solid #d1d1d1;}
+.addflow-from .form-group .list-dialog .list-srcoll p{padding:6px 10px;margin: 0;cursor: pointer}
+.addflow-from .form-group .list-dialog .list-srcoll p.active{background-color: #288bd7;color: #fff;}
+.addflow-from .form-group .list-dialog .list-srcoll>.tips{line-height: 240px;font-size: 60px;text-align: center;position: absolute;top: 0;left: 0;width: 100%;height: 100%;background-color: rgba(0,0,0,0.65);color: #fff;display: none;}
+
+.addflow-from .form-group .list-dialog-02{width:420px;}
+.addflow-from .form-group .list-dialog-02>h2{text-align: center;}
+.addflow-from .form-group .list-dialog-02 .list-srcoll{overflow-y: initial;}
+.addflow-from .form-group .list-dialog-02 .list-srcoll .list-srcoll-con{width: 50%;box-sizing: border-box;float: left;height: 240px;overflow-y: scroll;}
+.addflow-from .form-group .list-dialog-02 .list-srcoll:first-child .list-srcoll-con{border-right: 3px solid #d1d1d1;}
+
+/* */
+.dataTables_length label {
+    /*border-radius: 0;
+    border-color: #d2d6de;*/
+}

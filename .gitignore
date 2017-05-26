@@ -1,0 +1,10 @@
+!.readme
+!/data/logs/.readme
+/data/logs/*.log
+/data/cache/*
+/data/tmp/*
+/nbproject/*
+/public/upload/*
+/composer.lock
+*.bak
+/vendor

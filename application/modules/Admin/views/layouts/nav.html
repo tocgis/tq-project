@@ -1,0 +1,40 @@
+
+      <!--右边导航条 -->
+      <aside class="main-sidebar">
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+
+          <!-- sidebar menu: : style can be found in sidebar.less -->
+          <ul class="sidebar-menu">
+            <!--
+            <li {{if $activetitle == "首页"}} class="active" {{/if}}><a href="javascript:void(0)"><i class="fa fa-home"></i> <span>首页</span></a></li>-->
+            {{foreach $menus as $menu}}
+              {{if $menu.view == true}}
+
+                <li class="treeview {{if $menu.title == $parentmenu}}active{{/if}}">
+                  <a href="{{$menu.url}}"><i class="fa fa-{{$menu.icon}}"></i> <span>{{$menu.title}}</span><i class="fa fa-angle-left pull-right"></i></a>
+                  {{if isset($menu.sub) }}
+                  <ul class="treeview-menu">
+                    {{foreach $menu.sub as $item}}
+                      {{if $item.view == true}}
+
+                        <li {{if ($item.title == $activetitle && $activetitle !='')}} class="active" {{/if}}><a href="{{$item.url}}"><i class="fa fa-{{$item.icon}}"></i><span>{{$item.title}}</span></a></li>
+
+                     {{/if}}
+                    {{/foreach}}
+
+                  </ul>
+                  {{/if}}
+
+                </li>
+              {{/if}}
+            {{/foreach}}
+
+            <li {{if $item.title == $activetitle}} class="active"{{/if}}>
+              <a href="/admin/auth/logout"><i class="fa fa-sign-out"></i> <span>退出</span></a>
+            </li>
+          </ul>
+          <!-- /.sidebar-menu -->
+        </section>
+        <!-- /.sidebar -->
+      </aside>

@@ -1,0 +1,13 @@
+li{list-style: none;}
+ul{padding: 0;margin: 0;}
+label{font-weight: normal;cursor: pointer;}
+.mt10{margin-top: 10px;}
+.mt20{margin-top: 20px;}
+.mtb20{margin-top:20px;margin-bottom:20px;}
+.lable-space label{margin-right:10px;font-weight: normal;cursor: pointer;margin-bottom: 10px;}
+.lable-space label small{display: inline-block;}
+.lable-space label .icheckbox_minimal-blue{float: left;margin-top: 2px;margin-right: 5px;}
+.ui-row {display: block;overflow: hidden;padding: 0;}
+.ui-col {float: left;-webkit-box-sizing: border-box;box-sizing: border-box;width: 100%;}
+.ui-col-20{width: 20%;}
+.ui-col-25{width: 25%;}

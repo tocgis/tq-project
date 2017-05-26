@@ -1,0 +1,17 @@
+{
+    "name": "tocgis/tq-project",
+    "type": "project",
+    "description": "This is TQ base project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simon",
+            "email": "tocgi@163.com"
+        }
+    ],
+    "require": {
+        "ext-tq": "1.0",
+        "tocgis/php-activerecord": "^1.0",
+        "smarty/smarty": "^3.1"
+    }
+}
