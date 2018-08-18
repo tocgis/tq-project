@@ -9,7 +9,7 @@ class Loader
     protected $_eventsManager   = null;
     protected $_foundPath       = null;
     protected $_checkedPath     = null;
-    protected $_extensions      = ["php"];
+    protected $_extensions      = ['php'];
     protected $_directories     = [];
     protected $_namespaces      = [];
     protected $_classes         = [];
